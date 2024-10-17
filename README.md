@@ -1,6 +1,6 @@
 # Pihon
 
-**Pihon** is a cross-platform application built using **React Native** and **ReNative**. It serves as a Manhwa/Manga reader, providing users with a seamless reading experience across multiple devices (Android, iOS, Web, and Windows). With a clean, responsive design and multi-device support.
+**Pihon** is a cross-platform application built using **React Native** and **Expo**. It serves as a Manhwa/Manga reader, providing users with a seamless reading experience across multiple devices (Android, iOS, Web, and Windows). With a clean, responsive design and multi-device support.
 
 ## Features
 
@@ -44,7 +44,6 @@ Once the live server is running, scan the QR code from the console using the **E
 - **Expo**
 - **TailwindCSS**
 - **NativeWind**
-- **Firebase** (for synchronization and user data management)
 
 ## Contributing
 
