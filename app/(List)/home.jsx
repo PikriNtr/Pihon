@@ -7,8 +7,7 @@ const home = () => {
     <SafeAreaView className="bg-indigo-950 h-full">
       <ScrollView>
         <View className="flex flex-col gap-4 items-center">
-          <Text className="text-white text-2xl font-bold font-psemibold">Home</Text>
-          <Text className="text-white font-pmedium">Welcome to Aduhai!</Text>
+          
         </View>
       </ScrollView>
     </SafeAreaView>

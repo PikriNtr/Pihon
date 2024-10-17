@@ -2,20 +2,24 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View, ScrollView } from 'react-native';
 import { Link } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import home from './(List)/home';
 
 
 export default function App() {
   return (
     <SafeAreaView className="bg-white h-full">
       <View className='bg-indigo-950 h-full'>
-        <View className='my-80 border border-transparent bg-yellow rounded-full w-64 h-12 left-14 items-center justify-center'>
+        <View className='p-0 items-center py-6 my-64'>
+          <Text className='font-psemibold text-3xl text-yellow'>Pihon</Text>
+          <Text className='font-pregular text-white'>Web based manhwa/manga reader apps</Text>
+        </View>
+        <View className='my-16 border border-transparent bg-yellow rounded-full w-64 h-12 left-14 items-center justify-center'>
           <Link href='/home' className='text-2xl text-center font-pmedium'>click here to start</Link>
         </View>
       </View>
-      
-      
     </SafeAreaView>
-  );
+
+  )
 }
 
 
